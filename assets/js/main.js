@@ -25,10 +25,6 @@
 			}, 100);
 		});
 
-	// Scrolly.
-		$('#nav a, .scrolly').scrolly({
-			speed: 1000,
-			offset: function() { return $nav.height(); }
-		});
+
 
 })(jQuery);
